@@ -1,0 +1,31 @@
+### HEXMate logfile and output summary ###
+### Memory Usage ###
+ Unused memory ranges:
+  16h - 2D5h
+  400h - 1FBFh
+  1FC0h - 1FFDh
+  
+ dist/default/debug\TrafficLight.X.debug.hex ranges:
+  0h - 15h
+  2D6h - 3FFh
+  1FFEh - 1FFFh
+  
+### Hex Memory Map ###
+ Legend:
+  - = Unused memory
+  F = Filled ROM
+  S = Stored serial code
+  A = Stored ASCII string
+  R = Reserved for checksum
+  C = Stored checksum result
+  T = Trailing code
+  & = Find & replace opcode
+  X = Find & delete opcode
+  1 = dist/default/debug\TrafficLight.X.debug.hex
+00000000: 1111111111111111111111------------------------------------------
+000002C0: ----------------------111111111111111111111111111111111111111111
+00000300: 1111111111111111111111111111111111111111111111111111111111111111
+00000340: 1111111111111111111111111111111111111111111111111111111111111111
+00000380: 1111111111111111111111111111111111111111111111111111111111111111
+000003C0: 1111111111111111111111111111111111111111111111111111111111111111
+00001FC0: --------------------------------------------------------------11

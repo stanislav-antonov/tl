@@ -1,0 +1,273 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[p mainexit ]
+"48 main.c
+[; ;main.c: 48:             }
+[v _init `(v ~T0 @X0 0 ef ]
+"49
+[; ;main.c: 49:         }
+[v _debounce `(v ~T0 @X0 0 ef1`uc ]
+"276 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC10-12Fxxx_DFP/1.3.46/xc8\pic\include\proc\pic12f509.h
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC10-12Fxxx_DFP/1.3.46/xc8\pic\include\proc\pic12f509.h: 276:     struct {
+[s S21 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S21 . GP0 GP1 GP2 GP3 GP4 GP5 ]
+"275
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC10-12Fxxx_DFP/1.3.46/xc8\pic\include\proc\pic12f509.h: 275: typedef union {
+[u S20 `S21 1 ]
+[n S20 . . ]
+"285
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC10-12Fxxx_DFP/1.3.46/xc8\pic\include\proc\pic12f509.h: 285: extern volatile GPIObits_t GPIObits __attribute__((address(0x006)));
+[v _GPIObits `VS20 ~T0 @X0 0 e@6 ]
+[v F324 `(v ~T0 @X0 1 tf1`ul ]
+"92 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC10-12Fxxx_DFP/1.3.46/xc8\pic\include\pic.h
+[v __delay `JF324 ~T0 @X0 0 e ]
+[p i __delay ]
+"50 main.c
+[; ;main.c: 50:     }
+[v _standby `(v ~T0 @X0 0 ef ]
+"324 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC10-12Fxxx_DFP/1.3.46/xc8\pic\include\proc\pic12f509.h
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC10-12Fxxx_DFP/1.3.46/xc8\pic\include\proc\pic12f509.h: 324: extern volatile __control unsigned char TRIS __attribute__((address(0x006)));
+[v _TRIS `VWuc ~T0 @X0 0 e@6 ]
+"320
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC10-12Fxxx_DFP/1.3.46/xc8\pic\include\proc\pic12f509.h: 320: extern volatile __control unsigned char OPTION __attribute__((address(0x000)));
+[v _OPTION `VWuc ~T0 @X0 0 e@0 ]
+"72
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC10-12Fxxx_DFP/1.3.46/xc8\pic\include\proc\pic12f509.h: 72: extern volatile unsigned char TMR0 __attribute__((address(0x001)));
+[v _TMR0 `Vuc ~T0 @X0 0 e@1 ]
+"54 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC10-12Fxxx_DFP/1.3.46/xc8\pic\include\proc\pic12f509.h
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC10-12Fxxx_DFP/1.3.46/xc8\pic\include\proc\pic12f509.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"74
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC10-12Fxxx_DFP/1.3.46/xc8\pic\include\proc\pic12f509.h: 74: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"94
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC10-12Fxxx_DFP/1.3.46/xc8\pic\include\proc\pic12f509.h: 94: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"114
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC10-12Fxxx_DFP/1.3.46/xc8\pic\include\proc\pic12f509.h: 114: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"186
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC10-12Fxxx_DFP/1.3.46/xc8\pic\include\proc\pic12f509.h: 186: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"206
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC10-12Fxxx_DFP/1.3.46/xc8\pic\include\proc\pic12f509.h: 206: __asm("OSCCAL equ 05h");
+[; <" OSCCAL equ 05h ;# ">
+"272
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC10-12Fxxx_DFP/1.3.46/xc8\pic\include\proc\pic12f509.h: 272: __asm("GPIO equ 06h");
+[; <" GPIO equ 06h ;# ">
+"43 main.c
+[; ;main.c: 43:             }
+[p x OSC  =  IntRC  ]
+"44
+[; ;main.c: 44: 
+[p x WDT  =  OFF    ]
+"45
+[; ;main.c: 45: 
+[p x CP  =  OFF     ]
+"46
+[; ;main.c: 46:             if (++seconds_total == 5 * 60) {
+[p x MCLRE  =  OFF  ]
+[v $root$_main `(v ~T0 @X0 0 e ]
+"55
+[; ;main.c: 55: 
+[v _main `(i ~T0 @X0 1 ef2`i`**uc ]
+{
+[e :U _main ]
+[v _argc `i ~T0 @X0 1 r1 ]
+[v _argv `**uc ~T0 @X0 1 r2 ]
+[f ]
+"56
+[; ;main.c: 56: 
+[e ( _init ..  ]
+"57
+[; ;main.c: 57: 
+[e ( _debounce (1 . . _GPIObits 0 3 ]
+"59
+[; ;main.c: 59: 
+[v _seconds_total `ui ~T0 @X0 1 a ]
+[e = _seconds_total -> -> 0 `i `ui ]
+"61
+[; ;main.c: 61: 
+[e :U 24 ]
+{
+"62
+[; ;main.c: 62: 
+{
+[v _seconds `uc ~T0 @X0 1 a ]
+[e = _seconds -> -> 0 `i `uc ]
+[e $ < -> _seconds `i + + + + + + -> 0 `i - -> 10 `i -> 5 `i -> 5 `i -> 0 `i - -> 10 `i -> 5 `i -> 5 `i -> 5 `i 26  ]
+[e $U 27  ]
+[e :U 26 ]
+{
+"63
+[; ;main.c: 63: 
+[e $ ! == -> _seconds `i -> 0 `i 29  ]
+{
+"64
+[; ;main.c: 64: 
+[e = . . _GPIObits 0 1 -> -> 0 `i `uc ]
+[e = . . _GPIObits 0 5 -> -> 0 `i `uc ]
+[e = . . _GPIObits 0 4 -> -> 0 `i `uc ]
+"65
+[; ;main.c: 65: 
+[e = . . _GPIObits 0 1 -> -> 1 `i `uc ]
+"66
+[; ;main.c: 66:     TRIS = 0b001000;
+}
+[e :U 29 ]
+"68
+[; ;main.c: 68: 
+[e $ ! == -> _seconds `i + -> 0 `i - -> 10 `i -> 5 `i 30  ]
+{
+"69
+[; ;main.c: 69: 
+[e = . . _GPIObits 0 5 -> -> 1 `i `uc ]
+"70
+[; ;main.c: 70: 
+}
+[e :U 30 ]
+"72
+[; ;main.c: 72: 
+[e $ ! == -> _seconds `i + + -> 0 `i - -> 10 `i -> 5 `i -> 5 `i 31  ]
+{
+"73
+[; ;main.c: 73: 
+[e = . . _GPIObits 0 1 -> -> 0 `i `uc ]
+"74
+[; ;main.c: 74:     OPTION = 0b00000000;
+[e = . . _GPIObits 0 5 -> -> 0 `i `uc ]
+"75
+[e = . . _GPIObits 0 4 -> -> 1 `i `uc ]
+"76
+}
+[e :U 31 ]
+"78
+[e $ ! == -> _seconds `i + + + + + -> 0 `i - -> 10 `i -> 5 `i -> 5 `i -> 0 `i - -> 10 `i -> 5 `i -> 5 `i 32  ]
+{
+"79
+[e = . . _GPIObits 0 4 -> -> 0 `i `uc ]
+"80
+[e = . . _GPIObits 0 5 -> -> 1 `i `uc ]
+"81
+}
+[e :U 32 ]
+"85
+{
+[v _p_cnt `uc ~T0 @X0 1 a ]
+[e = _p_cnt -> -> 0 `i `uc ]
+[e $ < -> _p_cnt `i / -> 1000 `i -> 50 `i 33  ]
+[e $U 34  ]
+[e :U 33 ]
+{
+"86
+[e ( __delay (1 -> * -> -> 50 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"88
+[e $ ! ! != -> . . _GPIObits 0 3 `i -> 0 `i 36  ]
+{
+"89
+[e ( _standby ..  ]
+"90
+}
+[e :U 36 ]
+"91
+}
+[e ++ _p_cnt -> -> 1 `i `uc ]
+[e $ < -> _p_cnt `i / -> 1000 `i -> 50 `i 33  ]
+[e :U 34 ]
+}
+"94
+[e $ ! == =+ _seconds_total -> -> 1 `i `ui -> * -> 5 `i -> 60 `i `ui 37  ]
+{
+"95
+[e ( _standby ..  ]
+"96
+}
+[e :U 37 ]
+"97
+}
+[e ++ _seconds -> -> 1 `i `uc ]
+[e $ < -> _seconds `i + + + + + + -> 0 `i - -> 10 `i -> 5 `i -> 5 `i -> 0 `i - -> 10 `i -> 5 `i -> 5 `i -> 5 `i 26  ]
+[e :U 27 ]
+}
+"98
+}
+[e :U 23 ]
+[e $U 24  ]
+[e :U 25 ]
+"100
+[e ) -> 0 `i ]
+[e $UE 22  ]
+"101
+[e :UE 22 ]
+}
+"106
+[v _init `(v ~T0 @X0 1 ef ]
+{
+[e :U _init ]
+[f ]
+"114
+[e = _TRIS -> -> 8 `i `uc ]
+"122
+[e = _OPTION -> -> 0 `i `uc ]
+"131
+[; ;main.c: 131: }
+[e :UE 38 ]
+}
+"136
+[; ;main.c: 136: void debounce(uint8_t pin) {
+[v _debounce `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _debounce ]
+[v _pin `uc ~T0 @X0 1 r1 ]
+[f ]
+"137
+[; ;main.c: 137:     TMR0 = 0;
+[e = _TMR0 -> -> 0 `i `uc ]
+"138
+[; ;main.c: 138:     while (TMR0 < 10 * 1000 / 256) {
+[e $U 40  ]
+[e :U 41 ]
+{
+"139
+[; ;main.c: 139:         if (pin == 0) {
+[e $ ! == -> _pin `i -> 0 `i 43  ]
+{
+"140
+[; ;main.c: 140:             TMR0 = 0;
+[e = _TMR0 -> -> 0 `i `uc ]
+"141
+[; ;main.c: 141:         }
+}
+[e :U 43 ]
+"142
+[; ;main.c: 142:     }
+}
+[e :U 40 ]
+"138
+[; ;main.c: 138:     while (TMR0 < 10 * 1000 / 256) {
+[e $ < -> _TMR0 `i / * -> 10 `i -> 1000 `i -> 256 `i 41  ]
+[e :U 42 ]
+"143
+[; ;main.c: 143: }
+[e :UE 39 ]
+}
+"148
+[; ;main.c: 148: void standby(void) {
+[v _standby `(v ~T0 @X0 1 ef ]
+{
+[e :U _standby ]
+[f ]
+"149
+[; ;main.c: 149:     GPIObits.GP1 = 0; GPIObits.GP5 = 0; GPIObits.GP4 = 0;
+[e = . . _GPIObits 0 1 -> -> 0 `i `uc ]
+[e = . . _GPIObits 0 5 -> -> 0 `i `uc ]
+[e = . . _GPIObits 0 4 -> -> 0 `i `uc ]
+"150
+[; ;main.c: 150:     debounce(GPIObits.GP3);
+[e ( _debounce (1 . . _GPIObits 0 3 ]
+"151
+[; ;main.c: 151:     __asm("sleep");
+[; <" sleep ;# ">
+"152
+[; ;main.c: 152: }
+[e :UE 44 ]
+}
